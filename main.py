@@ -6,7 +6,7 @@ from asyncio import sleep
 
 
 logging.basicConfig(level=logging.INFO, filename='bot.log', format='%(asctime)s - %(levelname)s - %(funcName)s: - %(message)s')
-bot = Bot('TOKEN HEREgit')
+bot = Bot('TOKEN HERE')
 dp = Dispatcher(bot)
 translator = google_translator()
 currency = CurrencyRates()
